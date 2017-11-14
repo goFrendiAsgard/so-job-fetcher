@@ -1,0 +1,333 @@
+[
+    {
+        "company_loc": "South Jakarta, Indonesia", 
+        "company_name": "KMKLabs", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            "ruby-on-rails", 
+            "postgresql", 
+            "full-text-search", 
+            "tdd", 
+            "python"
+        ], 
+        "title": "Full-Stack Engineer for millions of users"
+    }, 
+    {
+        "company_loc": "Central Jakarta, Indonesia", 
+        "company_name": "KMKLabs", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            "android", 
+            "java", 
+            "kotlin", 
+            "tdd", 
+            "rx-java"
+        ], 
+        "title": "Android Engineer for millions of users"
+    }, 
+    {
+        "company_loc": "South Jakarta, Indonesia", 
+        "company_name": "BTPN", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            "java", 
+            "node.js"
+        ], 
+        "title": "Back End Developer"
+    }, 
+    {
+        "company_loc": "South Jakarta, Indonesia", 
+        "company_name": "Jenius", 
+        "posted_date": "2w ago", 
+        "remote": 0, 
+        "tag": [
+            "java", 
+            "spring", 
+            "json", 
+            "xml"
+        ], 
+        "title": "IT Solution Development"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "Unit4", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            ".net", 
+            "sql", 
+            "asp.net", 
+            "design"
+        ], 
+        "title": "Systems Analyst"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "PT Bukalapak.com", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            "android", 
+            "java", 
+            "ios", 
+            "swift"
+        ], 
+        "title": "Android/iOS Engineer at Largest Indonesian E-Marketplace"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "PT Bukalapak.com", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            "selenium", 
+            "automated-tests", 
+            "testing", 
+            "cucumber", 
+            "unit-testing"
+        ], 
+        "title": "QA Engineer at Largest Indonesian E-Marketplace"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "PT Bukalapak.com", 
+        "posted_date": "5d ago", 
+        "remote": 0, 
+        "tag": [
+            "ruby", 
+            "ruby-on-rails", 
+            "python", 
+            "go", 
+            "mongodb"
+        ], 
+        "title": "Software Engineer at Largest Indonesian E-Marketplace"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "PT Bukalapak.com", 
+        "posted_date": "5d ago", 
+        "remote": 0, 
+        "tag": [
+            "javascript", 
+            "html", 
+            "css", 
+            "reactjs", 
+            "jquery"
+        ], 
+        "title": "Front-End Engineer at Largest Indonesian E-Marketplace"
+    }, 
+    {
+        "company_loc": "Kota Jakarta Selatan, Indonesia", 
+        "company_name": "Bukalapak", 
+        "posted_date": "5d ago", 
+        "remote": 0, 
+        "tag": [
+            "linux", 
+            "kubernetes", 
+            "performance", 
+            "go", 
+            "ruby", 
+            "sysadmin"
+        ], 
+        "title": "Site Reliability Engineer at Largest Indonesian E-Marketplace"
+    }, 
+    {
+        "company_loc": "Central Jakarta, Indonesia", 
+        "company_name": "KMKLabs", 
+        "posted_date": "2w ago", 
+        "remote": 0, 
+        "tag": [
+            "python", 
+            "ansible", 
+            "ubuntu", 
+            "jenkins", 
+            "sysadm", 
+            "sysadmin"
+        ], 
+        "title": "Infrastructure Engineer handling 1M requests per second"
+    }, 
+    {
+        "company_loc": "Kecamatan Setiabudi, Indonesia", 
+        "company_name": "PT Tokopedia", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            "reactjs", 
+            "angularjs", 
+            "javascript"
+        ], 
+        "title": "Software Engineer - Mobile Web (React.js)"
+    }, 
+    {
+        "company_loc": "Kecamatan Setiabudi, Indonesia", 
+        "company_name": "PT Tokopedia", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            "go", 
+            "c", 
+            "python", 
+            "reactjs", 
+            "perl"
+        ], 
+        "title": "Senior Software Engineer (Golang)"
+    }, 
+    {
+        "company_loc": "Petr\u00c5\u00bealka, Slovakia", 
+        "company_name": "Kistler", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            "c#", 
+            "design", 
+            "sql", 
+            ".net", 
+            "asp.net"
+        ], 
+        "title": "C# Developer needed for Kistler"
+    }, 
+    {
+        "company_loc": "Tongeren, Belgium", 
+        "company_name": "Rajapack", 
+        "posted_date": "1w ago", 
+        "remote": 0, 
+        "tag": [
+            "sql", 
+            ".net", 
+            "microsoft-dynamics"
+        ], 
+        "title": "Software Application Test Analyst"
+    }, 
+    {
+        "company_loc": "Rochester, NY", 
+        "company_name": "Rochester Institute of Technology", 
+        "posted_date": "1w ago", 
+        "remote": 0, 
+        "tag": [
+            "sql", 
+            "c#", 
+            ".net"
+        ], 
+        "title": "Sr Programmer/Analyst"
+    }, 
+    {
+        "company_loc": "Hamburg, Deutschland", 
+        "company_name": "Dataport - Anstalt des \u00f6ffentlichen Rechts", 
+        "posted_date": "4d ago", 
+        "remote": 0, 
+        "tag": [
+            "c#", 
+            ".net", 
+            "asp.net", 
+            "sql"
+        ], 
+        "title": "Anwendungsentwickler (m/w) .NET"
+    }, 
+    {
+        "company_loc": "Cupertino, CA", 
+        "company_name": "TransPerfect Translations, Inc.", 
+        "posted_date": "4w ago", 
+        "remote": 0, 
+        "tag": [
+            ".net", 
+            "c#", 
+            "asp.net", 
+            "sql"
+        ], 
+        "title": ".NET Developer (75-85k)"
+    }, 
+    {
+        "company_loc": "Helsinki, Finland", 
+        "company_name": "aTalent Recruiting", 
+        "posted_date": "2w ago", 
+        "remote": 0, 
+        "tag": [
+            "sql", 
+            ".net"
+        ], 
+        "title": "Keh\u00e4tieto: Ohjelmistokehitt\u00e4j\u00e4 (.NET)"
+    }, 
+    {
+        "company_loc": "Stuttgart, Deutschland", 
+        "company_name": "CENIT AG", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            ".net", 
+            "sql"
+        ], 
+        "title": "Softwareentwickler (m/w) .NET/VBA im ERP-Bereich (Microsoft Dynamics)"
+    }, 
+    {
+        "company_loc": "San Francisco, CA", 
+        "company_name": "IFTTT", 
+        "posted_date": "3w ago", 
+        "remote": 0, 
+        "tag": [
+            "scala", 
+            "ruby", 
+            "sql", 
+            "amazon-web-services"
+        ], 
+        "title": "Systems Engineer"
+    }, 
+    {
+        "company_loc": "Wien, \u00d6sterreich", 
+        "company_name": "rubicon IT GmbH", 
+        "posted_date": "6d ago", 
+        "remote": 0, 
+        "tag": [
+            "c#", 
+            "asp.net", 
+            ".net", 
+            "sql", 
+            "html"
+        ], 
+        "title": "Software Developer (m/w) f\u00fcr agile C# Teams"
+    }, 
+    {
+        "company_loc": "Linz, \u00d6sterreich", 
+        "company_name": "bet-at-home.com Entertainment GmbH", 
+        "posted_date": "1w ago", 
+        "remote": 0, 
+        "tag": [
+            "c#", 
+            "asp.net", 
+            "sql", 
+            "tsql", 
+            ".net"
+        ], 
+        "title": "Project-Manager with IT-Expertise (m/f)"
+    }, 
+    {
+        "company_loc": "Hamburg, Deutschland", 
+        "company_name": "Dataport - Anstalt des \u00f6ffentlichen Rechts", 
+        "posted_date": "4d ago", 
+        "remote": 0, 
+        "tag": [
+            "c#", 
+            ".net", 
+            "asp.net", 
+            "web", 
+            "sql"
+        ], 
+        "title": "Softwarearchitekt (m/w) .NET"
+    }, 
+    {
+        "company_loc": "Stuttgart, Deutschland", 
+        "company_name": "TRIVADIS", 
+        "posted_date": "3d ago", 
+        "remote": 0, 
+        "tag": [
+            ".net", 
+            "sql", 
+            "asp.net", 
+            "angular", 
+            "tfs"
+        ], 
+        "title": ".NET Architekt / .NET Entwickler als (Senior) Consultant (m/w)"
+    }
+]

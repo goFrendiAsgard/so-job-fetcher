@@ -1,5 +1,5 @@
 from lxml import html
-import requests, json, sys
+import requests, json, sys, datetime, time
 
 def scrap(url):
     # get the tree
@@ -22,28 +22,30 @@ def scrap(url):
             'tag': job_tag,
             'posted_date': job_posted,
             'company_name': company_name,
-            'company_loc': company_location,
+            'company_loc': company_location.replace('- \r\n', ''),
             'remote': job_remote,
             }
         result.append(row)
     return result
 
-def dump_now():
-    webpage = requests.get('https://stackoverflow.com/jobs')
+def dump_now(query=''):
+    query = '&' + query if query != '' else ''
+    webpage = requests.get('https://stackoverflow.com/jobs?_123=456' + query)
     tree = html.fromstring(webpage.content)
     pages = tree.xpath('//div[contains(@class,"pagination")]/a[contains(@class,"job-link")]/text()')
     max_page = int(pages[-2]) if len(pages) > 2 else 1
     result = []
     for i in range(max_page):
-        url = 'https://stackoverflow.com/jobs?pg='+str(i+1)
+        url = 'https://stackoverflow.com/jobs?_123=456&pg=' + str(i+1) + query
         print('URL: ' + url)
         result = result + scrap(url)
         print('Job count: ' + str(len(result)))
-    json_file = open('stack-overflow-now.json', 'w')
+    file_name = datetime.datetime.fromtimestamp(time.time()).strftime('%Y%m%d %H%M%S') + query + '.json'
+    json_file = open(file_name, 'w')
     json_file.write(json.dumps(result, sort_keys=True, indent=4))
     json_file.close()
     print('Dumped to json')
 
 if __name__ == '__main__':
-    if len(sys.argv) == 1 or sys.argv[2] == 'now':
-        dump_now()
+    query = sys.argv[1] if len(sys.argv)>1 else ''
+    dump_now(query)
